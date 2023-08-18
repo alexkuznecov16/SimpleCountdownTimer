@@ -54,7 +54,7 @@ Alexander Kuznecov
 
 For any questions or inquiries, please email me at alexander.kuznecov16@gmail.com.
 
-If Telegram is convenient for you, please write to me at [@your-telegram-handle](https://t.me/kznws).
+If Telegram is convenient for you, please write to me at [@kznws](https://t.me/kznws) to start a conversation. Feel free to say "Hello!"!
 
 ---
 
