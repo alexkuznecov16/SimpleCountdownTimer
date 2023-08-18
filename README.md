@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Countdown Timer App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React application that allows users to set a deadline date and time and displays the countdown time remaining until that deadline.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Set a custom deadline date and time.
+- See the remaining time in days, hours, minutes, and seconds until the set deadline.
+- Display the selected deadline date and time.
+- Prevent negative values for countdown time when the entered date is in the past.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: A JavaScript library for building user interfaces.
+- CSS: Styling the components and layout.
+- JSX: A syntax extension for JavaScript often used with React to describe what the UI should look like.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Run
 
-### `npm test`
+1. Clone this repository to your local machine using the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+git clone https://github.com/alexkuznecov16/SimpleCountdownTimer.git
 
-### `npm run build`
+2. Navigate to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd SimpleCountdownTimer
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install the dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install
 
-### `npm run eject`
+4. Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Open your browser and go to [http://localhost:3000](http://localhost:3000) to see the app in action.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Select a future date and time using the input field.
+2. The app will display the remaining time in days, hours, minutes, and seconds until the selected deadline.
+3. The selected deadline date and time are displayed below the countdown timer.
+4. If you enter a past date and time, the countdown timer will show 00:00:00 to indicate that the deadline has already passed.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
+Alexander Kuznecov
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact
 
-### Analyzing the Bundle Size
+For any questions or inquiries, please email me at alexander.kuznecov16@gmail.com.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If Telegram is convenient for you, please write to me at [@your-telegram-handle](https://t.me/kznws).
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize the content, author information, and contact details in the README to match your project. You can also add additional sections, such as Deployment, Contributing, Known Issues, etc., as needed for your specific project.

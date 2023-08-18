@@ -23,10 +23,24 @@ function App() {
             );
 
             // Values sets
-            setDaysLeft(Math.floor(dateDiff / (24 * 60 * 60)) >= 0 ? Math.floor(dateDiff / (24 * 60 * 60)) : 0);
-            setHoursLeft(Math.floor(dateDiff / 3600) % 24 >= 0 ? Math.floor(dateDiff / 3600) % 24 : 0);
-            setMinutesLeft(Math.floor(dateDiff / 60) % 60 >= 0 ? Math.floor(dateDiff / 60) % 60 : 0);
-            setSecondsLeft(Math.floor(dateDiff) % 60 >= 0 ? Math.floor(dateDiff) % 60 : 0)
+            setDaysLeft(
+                Math.floor(dateDiff / (24 * 60 * 60)) >= 0
+                    ? Math.floor(dateDiff / (24 * 60 * 60))
+                    : 0,
+            );
+            setHoursLeft(
+                Math.floor(dateDiff / 3600) % 24 >= 0
+                    ? Math.floor(dateDiff / 3600) % 24
+                    : 0,
+            );
+            setMinutesLeft(
+                Math.floor(dateDiff / 60) % 60 >= 0
+                    ? Math.floor(dateDiff / 60) % 60
+                    : 0,
+            );
+            setSecondsLeft(
+                Math.floor(dateDiff) % 60 >= 0 ? Math.floor(dateDiff) % 60 : 0,
+            );
         }
     });
 
