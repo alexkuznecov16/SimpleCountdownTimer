@@ -22,10 +22,11 @@ function App() {
                 (deadline.getTime() - currentDate.getTime()) / 1000,
             );
 
-            setDaysLeft(Math.floor(dateDiff / (24 * 60 * 60)));
-            setHoursLeft(Math.floor(dateDiff / 3600) % 24);
-            setMinutesLeft(Math.floor(dateDiff / 60) % 60);
-            setSecondsLeft(Math.floor(dateDiff) % 60);
+            // Values sets
+            setDaysLeft(Math.floor(dateDiff / (24 * 60 * 60)) >= 0 ? Math.floor(dateDiff / (24 * 60 * 60)) : 0);
+            setHoursLeft(Math.floor(dateDiff / 3600) % 24 >= 0 ? Math.floor(dateDiff / 3600) % 24 : 0);
+            setMinutesLeft(Math.floor(dateDiff / 60) % 60 >= 0 ? Math.floor(dateDiff / 60) % 60 : 0);
+            setSecondsLeft(Math.floor(dateDiff) % 60 >= 0 ? Math.floor(dateDiff) % 60 : 0)
         }
     });
 

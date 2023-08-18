@@ -28,3 +28,15 @@ body {
     gap: 5px;
     font-size: 50px;
 }
+
+@media screen and (max-width: 300px) {
+    .Countdown__block input {
+        font-size: 12px;
+    }
+    .Countdown__spans {
+        font-size: 24px;
+    }
+    .Countdown__deadline {
+        font-size: 14px;
+    }
+}
